@@ -52,7 +52,7 @@ export default function Map() {
 
   return (
     <div>
-      <div id="map"></div>
+      <div id="map" style={{ height: "500px", width: "100%" }}></div>
       <MarkerComponent map={mapRef.current} />
     </div>
   );
